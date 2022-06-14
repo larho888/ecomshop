@@ -384,6 +384,7 @@ section {
   top: 0;
   border-top: 1px solid rgba(8, 75, 109, 0.08);
   border-bottom: 1px solid rgba(8, 75, 109, 0.08);
+  background-color: #fff;
 }
 .navBar .wrapper {
   display: -webkit-box;
@@ -395,8 +396,9 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 20px 0;
 }
-.navBar input {
+.navBar input[type=checkbox] {
   opacity: 0;
   position: absolute;
 }
@@ -405,16 +407,36 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .searchCart .menuIcon, .searchCart .bag {
   margin-right: 15px;
+}
+.searchCart .menuIcon {
+  background-color: transparent;
+  border: none;
 }
 .searchCart .bag {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+.searchCart .counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.searchCart .counter p {
+  width: 24px;
+  height: 24px;
+  background: #084b6d;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
 
 .slideOutNav {
-  display: none;
+  background-color: #084b6d;
 }
