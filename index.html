@@ -21,7 +21,7 @@
 	<nav class="navBar">
 		<div class="wrapper">
 			<input type=checkbox id="openSideMenu">
-			<label for="openSideMenu">
+			<label for="openSideMenu" class="menuButton">
 				<img src="./assets/menu-button.svg" alt="Menu Button">
 			</label>
 		  <a href="#" class="logo">
@@ -45,11 +45,9 @@
 
 	  <!-- .wrapper END -->
 
-	<div class="slideOutNav wrapper">
+	<div class="slideOutNav">
 		<div class="buttonContainer">
-		<button>
-			<img src="./assets/menu-close.svg" alt="close navigation">
-		</button>
+			<button class="menuClose">X</button>
 		</div>
 		<nav>
 		<ul class="mainMenu">
@@ -63,10 +61,11 @@
 	</div>
 
 	<header>
-		<div class="headerImgContainer wrapper">
+		<div class="wrapper">
+		<div class="headerImgContainer">
 		  <img src="./assets/header-image.jpg" alt="A child in overalls playing with colourful wooden blocks on the floor">
 		</div>
-		<div class="headerContent wrapper">
+		<div class="headerContent">
 		  <div class="contentContainer">
 			<h5>Handcrafted for kids</h5>
 			<h3>Go on, let them play with wooden blocks.</h3>
@@ -74,13 +73,15 @@
 			<a class="button">Shop All</a>
 		  </div>
 		</div>
+		</div>
 	  </header>
 	
 	  <section class="categories" id="categories">
 		<div class="wrapper">
 		  <h2>Categories</h2>
 		  <p>Explore our range of hand-made toys</p>
-		  <ul class="categoryGallery">
+		  <div class="categoryGallery">
+		  <ul class="categoryList">
 			<li class="items itemOne">
 			  <a href="">
 				<img src="./assets/safari-trio.jpg" alt="Hand-carved safari animal toys">
@@ -110,6 +111,7 @@
 			   </a>
 			 </li>
 		   </ul> <!-- .categoryGallery END-->
+		</div>
 		 </div> <!-- .wrapper END-->
 	  </section> <!-- .categories END-->
 
