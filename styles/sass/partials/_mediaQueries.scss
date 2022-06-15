@@ -1,0 +1,23 @@
+//Breakpoints at 1000/800/500
+
+@media (max-width: 1000px) {
+
+}
+
+@media (max-width: 800px) {
+    header .wrapper {
+        flex-direction: column;
+    }
+    .headerImgContainer {
+        width: 100%;
+    }
+    img {
+        max-height: 350px;
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    
+}
